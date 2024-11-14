@@ -3,3 +3,6 @@ venv/
 
 # Ignore the .env file containing sensitive data
 .env
+
+# Ignore the .pkl file containing the trained model
+.pkl

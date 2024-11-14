@@ -89,16 +89,16 @@ input_data_rain_prediction = {
     'MaxTemp': data['list'][0]['main']['temp_max'],
     'WindGustSpeed': data['list'][0]['wind']['speed'],
     'WindSpeed9am': data['list'][0]['wind']['speed'],
-    'WindSpeed3pm': data['list'][0]['wind']['speed'],
+    'WindSpeed3pm': data['list'][2]['wind']['speed'],
     'Humidity9am': data['list'][0]['main']['humidity'],
-    'Humidity3pm': data['list'][0]['main']['humidity'],
+    'Humidity3pm': data['list'][2]['main']['humidity'],
     'Pressure9am': data['list'][0]['main']['pressure'],
-    'Pressure3pm': data['list'][0]['main']['pressure'],
+    'Pressure3pm': data['list'][2]['main']['pressure'],
     'Cloud9am': data['list'][0]['clouds']['all'],
     'Cloud3pm': data['list'][0]['clouds']['all'],
     'Temp9am': data['list'][0]['main']['temp'],
     'Temp3pm': data['list'][0]['main']['temp'],
-    'Location': 'Sydney'
+    'Location': 'Greater Noida'
 }
 
 @app.route('/')
